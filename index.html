@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="E2iADM8i2IzojPpLc5V9rqoyzD-l5xQI15IInoiCgTQ" />
+    <title>Trbochrgd | Home</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aaea96ea54.js" crossorigin="anonymous"></script>
+</HEAD>
+<BODY>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="pages/music.html">MUSIC</a></li>
+                <li><a href="pages/about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()""></i>
+    </nav>
+
+<div class="text-box">
+    <h1>World's Biggest Illegal Music Library</h1>
+    <p>We have music which has copyright claims</p>
+    <a href="pages/music.html" class="hero-btn">Listen Music</a>
+</div>    
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</BODY>
+</HTML>

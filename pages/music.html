@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trbochrgd</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href = "../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aaea96ea54.js" crossorigin="anonymous"></script>
+</HEAD>
+<BODY>
+<section class="header">
+    <nav>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../pages/music.html">MUSIC</a></li>
+                <li><a href="../pages/about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()""></i>
+    </nav>
+    <div class="music-title">
+        <h1>Top Songs</h1>
+    </div>
+    <div class="music">
+        <!----------Satupe-Trbochrgdpenguin---------->
+        <div class="music-box">
+            <div class="music-info">
+                <h3>Satupe <i class="fa-solid fa-h"></i>
+                    <i class="fa-solid fa-i"></i>
+                    <i class="fa-solid fa-n"></i>
+                    <i class="fa-solid fa-d"></i>
+                    <i class="fa-solid fa-i"></i></h3>
+                <p>TrbochrgdPenguin(feat. lunsse)</p>
+            </div>   
+            <audio controls loop>
+                <source src="../mp3/Satupe.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <div class="music-title">
+        <h1>New Releases</h1>
+    </div>
+    <div class="music">
+        <!----------DevilTown-Cavetown---------->
+        <div class="music-box">
+            <div class="music-info">
+                <h3>Devil Town</h3>
+                <p>Cavetown</p>
+            </div>   
+            <audio controls loop>
+                <source src="../mp3/Devil-Town.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!----------Apollo-Nightcore---------->
+        <div class="music-box">
+            <div class="music-info">
+                <h3>Apollo</h3>
+                <p>Nightcore High</p>
+            </div>   
+            <audio controls loop>
+                <source src="../mp3/Apollo.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!----------good4u-Olivia Rodrigo---------->
+        <div class="music-box">
+            <div class="music-info">
+                <h3>good 4 u</h3>
+                <p>Olivia Rodrigo</p>
+            </div>   
+            <audio controls loop>
+                <source src="../mp3/good-4-u.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!----------Satupe-Trbochrgdpenguin---------->
+        <div class="music-box">
+            <div class="music-info">
+                <h3>Satupe  <i class="fa-solid fa-h"></i>
+                    <i class="fa-solid fa-i"></i>
+                    <i class="fa-solid fa-n"></i>
+                    <i class="fa-solid fa-d"></i>
+                    <i class="fa-solid fa-i"></i></h3>
+                <p>TrbochrgdPenguin(feat. lunsse)</p>
+            </div>   
+            <audio controls loop>
+                <source src="../mp3/Satupe.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+</section>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</BODY>
+</HTML>
